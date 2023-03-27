@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exercício sobre formulário</h1>
+    <p>Responda todas as questões, utilize rascunhos em papel para realizar os cálculos. Os racunhos serão recolhidos pelo professor após a quarentena</p>
+
+    <fieldset>
+    <legend>Informações do aluno</legend>
+    <label for="nome_id"></label>
+    <input id="nome_id" type="text" placeholder="Digite o seu nome"><br>
+    <br><label for="nome_id"></label>
+    <input id="nome_id" type="text" placeholder="N°de pessoas no grupo"><br>
+    <br><label for="nome_id"></label>
+    <input id="nome_id" type="text" placeholder="Digite seu e-mail"><br>
+    <br><label for="nome_id">Data de nascimento</label><br>
+    <input id="date" type="date"><br>
+    <br><label for="nome_id">Digite uma senha para acessar os dados da pesquisa posteriormente:</label><br>
+    <input id="date" type="password" placeholder="Digite sua senha"><br>
+    </fieldset>
+
+    <fieldset>
+    <legend>Matemática</legend>
+    <img src="https://suap.ifpi.edu.br/media/edu/material_aula/matematica-a3f4da9219ee4838943aa6975df183d3.jpg" alt="matemática" width="300" height="300">
+    <br><label for="number">3+3=</label>
+    <input type="text"><br><br>
+    <br><label for="number">10/3=</label>
+    <input type="text"><br><br>
+    <br><label for="number">5*2=</label>
+    <input type="text"><br><br>
+    <label for="caixa">Essa tarefa foi díficil?</label>
+    <br><input id="numero1_id" type="range" name="numero1" min="0" max="2" step="0.2">
+    </fieldset>
+
+    <fieldset>
+    <legend>Opinião quanto a utilização</legend>    
+    <img src="https://suap.ifpi.edu.br/media/edu/material_aula/portugues-d6ea7cda8d924abf8f7fac7fc1621e43.jpg" alt="portugues" width="400" height="200">
+    <br><label type="text">Na frase "Eu sou bonito" o sujeito é</label>
+    <form>
+    <input id="bradpitt_id" type="radio" value="Brad-pitt" name="mais-bonito">
+    <label for="bradpitt_id">Brad Pitt</label>
+    <br><input id="joaodapadaria_id" type="radio" value="Joao-da-padaria" name="mais-bonito">
+    <label for="joaodapadaria_id">João da Padaria</label>
+    <br><input id="vocemesmo_id" type="radio" value="voce-mesmo" name="mais-bonito">
+    <label for="vocemesmo_id">Você mesmo</label>
+    <br><input id="meuspais_id" type="radio" value="meus-pais" name="mais-bonito">
+    <label for="meuspais_id">Meus pais</label>
+    <br><input id="eu_id" type="radio" value="eu" name="mais-bonito">
+    <label for="eu_id">Eu</label>
+    </form>
+    <form>
+    <br><label type="text">Complete a frase "Filho de peixe, peixinho___</label>
+    <br><input id="e_id" type="checkbox" value="e" name="peixe">
+    <label for="e_id">É</label>
+    <br><input id="tem_id" type="checkbox" value="tem" name="peixe">
+    <label for="tem_id">Tem</label>
+    <br><input id="verde_id" type="checkbox" value="verde" name="peixe">
+    <label for="verde_id">Verde</label>
+    <br><input id="bonito_id" type="checkbox" value="bonito" name="peixe">
+    <label for="bonito_id">Bonito</label>
+    <br><input id="maria_id" type="checkbox" value="maria" name="maria">
+    <label for="maria_id">Maria</label>
+    </form>
+    </fieldset>
+
+    <fieldset>
+    <legend>Dê uma nota para o seu professor:</legend>
+    <label for="caixa">Seu professor explica bem a matéria?</label>
+    <br><input id="numero1_id" type="range" name="numero1" min="0" max="2" step="0.2">
+    </fieldset>
+
+    <fieldset>
+    <legend>Opiniões</legend>
+    <textarea id="mensagem_id" name="mensagem" rows="5" cols="50">
+    </textarea>
+    </fieldset>
+    <input id="botao_id" type="submit" value="Gravar respostas">
+</body>
+</html>
