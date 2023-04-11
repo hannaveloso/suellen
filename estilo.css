@@ -1,0 +1,25 @@
+
+li{
+    display: inline;
+    float: left;
+ }
+li a {
+    display: block;
+    color: black;
+    padding: 8px;
+    background-color: #ddd;
+}
+ li a:hover {
+    background-color: blue;
+    color: white;
+ }
+ li.firt a {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-color: blue;
+ }
+ li.last a {
+    border-color: red;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+ }
